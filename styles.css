@@ -1,0 +1,191 @@
+header
+{
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.logo
+{
+    color: #f5f5f5;
+    display: flex;
+    align-items: center;
+}
+
+header ul li .nav-link
+{
+    font-size: 1.5em;
+    color: #8a8a8af5;
+}
+header ul li  .active
+{
+    font-size: 1.5em;
+    color: #f5f5f5;
+}
+.card-img-overlay
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 7.5em;
+}
+
+.card-img
+{
+   filter: brightness(60%);
+}
+
+.card-img-overlay p
+{
+    text-align: right;
+    width: 50%;
+    font-size: 1.5em;
+}
+
+.one h5
+{
+    font-size: 3em;
+}
+
+.main-buttons
+{
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+    
+
+}
+.main-buttons button
+{
+    margin: 2em;
+    font-size: 1.5em;
+    border-color: #f5f5f5;
+    background-color: rgb(150, 201, 62); 
+}
+
+.main-buttons :first-child
+{
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+
+
+.two {
+    display: flexbox;
+    justify-content: center;
+    margin: auto;
+    color: rgb(66, 64, 64);
+}
+
+.two h2
+{
+    font-size: 2.5em;
+}
+
+.title-speakers
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 1em
+}
+
+
+
+.two button{
+    padding: 0;
+}
+
+.card-group{
+    display: flex;
+    justify-content: center;
+    columns: 8;
+    margin: auto;
+}
+
+.btn-warning
+{
+    font-weight: bold;
+    
+
+}
+
+.btn-info
+{
+    color: #f5f5f5;
+    font-weight: bold;
+    
+    
+}
+ .btn-secondary
+ {
+    color: #f5f5f5;
+    font-weight: bold;
+ }
+
+ .btn-danger
+ {
+    color: #f5f5f5;
+    font-weight: bold;
+ }
+
+.four{
+    margin-top: 2em;
+}
+
+.row
+{
+    background-color: rgb(36, 36, 36);
+    color: #f5f5f5;
+}
+
+.col-md-6
+{
+    margin: auto;
+}
+
+.name
+{
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.name .col
+{
+    padding: 1em;
+}
+
+.btn-primary
+{
+    background-color: rgb(150, 201, 62); 
+    border-color: rgb(150, 201, 62);
+}
+
+footer
+{
+    margin: auto; 
+    margin-top: 2em;
+    background-color: #1d4054;
+    font-size: 1em;
+    padding: 1.5em;
+}
+
+footer ul
+{
+    justify-content: space-evenly;   
+}
+
+footer ul li .nav-link
+{
+    color: #f5f5f5;
+}
+
+
