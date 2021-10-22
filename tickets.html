@@ -9,55 +9,120 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container-fliud">
-        <header>
-            <div class="logo">
-                <h3>Conf. Bs. As.</h3>
-            </div>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">La conferencia</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Los oradores</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">El lugar y la fecha</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Conviértete en orador</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"  href="#">Comprar ticket</a>
-                </li>
-              </ul>
-        </header>
+  <div class="container-fliud">
+    <header>
+      <div class="logo">
+        <h3>Conf. Bs. As.</h3>
+      </div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#">La conferencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Los oradores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">El lugar y la fecha</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Conviértete en orador</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#">Comprar ticket</a>
+        </li>
+      </ul>
+    </header>
+  </div>
+  
+  <div class= "container">
+    <div class="boxes">
+      <div class="estudiante col-3 border">
+        <h3>Estudiante</h3>
+        <h5>Tiene un descuento</h5>
+        <h3>80%</h3>
+        <p>*presentar documentación</p>
+      </div>
+      <div class="trainee col-3">
+        <h3>Trainee</h3>
+        <h5>Tiene un descuento</h5>
+        <h3>50%</h3>
+        <p>*presentar documentación</p>
+      </div>
+      <div class="junior col-3">
+        <h3>Junior</h3>
+        <h5>Tiene un descuento</h5>
+        <h3>15%</h3>
+        <p>*presentar documentación</p>
+      </div>
     </div>
-    
-
-    <footer>
-        <div class="container-fluid">
-          <ul class="nav container-fluid">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Preguntas<br>frecuentes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contáctanos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Prensa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Términos y<br>condiciones</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Privacidad</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Estudiantes</a>
-              </li>
-        </ul>
+  </div>
+  <div class="title-speakers">
+    <h6>VENTA</h6>
+    <h2><strong>VALOR DE TICKET</strong></h2>
+  </div>
+</div>
+  <div class="col-md-6">
+    <div class="name">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+      </div>
+    </div>
+    <div class="email col">
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+    </div>
+   
+    <div class="row tickets">
+      <div class="amount col-6">
+        <label for="cantidad" class="form-label">Cantidad</label>
+        <input type="text" id="cantidad" class="form-control" placeholder="cantidad" aria-label="cantidad">
+      </div>
+      <div class="category col-6">
+        <label for="categoria" class="form-label">Categoría</label>
+        <select class="form-select" id="categoria" aria-label="categoria">
+          <option selected value="1">Estudiante</option>
+          <option value="2">Trainee</option>
+          <option value="3">Junior</option>
+        </select>
+      </div>
+      <div class="buttons row">
+        <div class="col-6">
+          <h5>acá va un botón</h5>
         </div>
-    </footer>
+        <div class="col-6">
+          <h5>acá va un botón</h5>
+        </div>       
+      </div>
+    </div>
+  </div>
+</div>  
+
+
+  <footer>
+    <div class="container-fluid">
+      <ul class="nav container-fluid">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Preguntas<br>frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contáctanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Prensa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Términos y<br>condiciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Privacidad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Estudiantes</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>

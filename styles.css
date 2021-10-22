@@ -14,15 +14,19 @@ header
     display: flex;
     align-items: center;
 }
+.logo img
+{
+    width: 50%;
+}
 
 header ul li .nav-link
 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #8a8a8af5;
 }
 header ul li  .active
 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #f5f5f5;
 }
 .card-img-overlay
@@ -93,7 +97,8 @@ header ul li  .active
     flex-direction: column;
     align-items: center;
     margin: auto;
-    padding: 1em
+    padding: 1em;
+    color: rgb(66, 64, 64);
 }
 
 
@@ -158,11 +163,18 @@ header ul li  .active
     margin: auto;
 }
 
-.name .col
+.name .col, .comment, .send-button
 {
     padding: 1em;
 }
 
+
+
+.form-control
+{
+    padding: 1em;
+
+}
 .btn-primary
 {
     background-color: rgb(150, 201, 62); 
@@ -188,4 +200,53 @@ footer ul li .nav-link
     color: #f5f5f5;
 }
 
+
+/* A partir de acá empiezan los estilos de la página tickets.html */
+/*////////////////////////////////////////////////////////////////*/
+
+.boxes
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2em;
+    
+}
+.estudiante
+{
+    border-color: blue;
+    border: thick;
+    color: rgb(66, 64, 64);
+}
+
+.email
+{
+    padding: 1em;
+
+}
+
+.tickets
+{
+    padding: 1em;
+
+}
+
+.row.tickets
+{
+    background-color: rgba(255, 255, 255, 0);
+}
+.form-label
+{
+    color: black;
+}
+#cantidad
+{
+    height: 45%;
+}
+
+.row.buttons
+{
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
 
