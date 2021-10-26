@@ -16,10 +16,10 @@
       </div>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link" href="#">La conferencia</a>
+          <a class="nav-link" href="index.html">La conferencia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Los oradores</a>
+          <a class="nav-link" href="index.html">Los oradores</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">El lugar y la fecha</a>
@@ -28,7 +28,7 @@
           <a class="nav-link active" href="#">Conviértete en orador</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  href="#">Comprar ticket</a>
+          <a class="nav-link text-success"  href="#">Comprar ticket</a>
         </li>
       </ul>
     </header>
@@ -36,19 +36,19 @@
   
   <div class= "container">
     <div class="boxes">
-      <div class="estudiante col-3 border">
+      <div class="estudiante col-3 border border-2 border-primary">
         <h3>Estudiante</h3>
         <h5>Tiene un descuento</h5>
         <h3>80%</h3>
         <p>*presentar documentación</p>
       </div>
-      <div class="trainee col-3">
+      <div class="trainee col-3 border border-2 border-info">
         <h3>Trainee</h3>
         <h5>Tiene un descuento</h5>
         <h3>50%</h3>
         <p>*presentar documentación</p>
       </div>
-      <div class="junior col-3">
+      <div class="junior col-3 border border-2 border-warning">
         <h3>Junior</h3>
         <h5>Tiene un descuento</h5>
         <h3>15%</h3>
@@ -58,7 +58,7 @@
   </div>
   <div class="title-speakers">
     <h6>VENTA</h6>
-    <h2><strong>VALOR DE TICKET</strong></h2>
+    <h2><strong>VALOR DE TICKET $200</strong></h2>
   </div>
 </div>
   <div class="col-md-6">
@@ -87,12 +87,19 @@
           <option value="3">Junior</option>
         </select>
       </div>
+      <div class="alert alert-info col" role="alert">
+        Total a pagar: $
+      </div>
       <div class="buttons row">
-        <div class="col-6">
-          <h5>acá va un botón</h5>
+        <div class="col-md-6">
+          <div class="send-button d-grid btn-lg">
+            <button class="btn btn-primary" type="button">Borrar</button>
         </div>
-        <div class="col-6">
-          <h5>acá va un botón</h5>
+        </div>
+        <div class="col-md-6">
+          <div class="send-button d-grid">
+            <button class="btn btn-primary" type="button">Resumen</button>
+          </div>
         </div>       
       </div>
     </div>

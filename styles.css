@@ -210,13 +210,16 @@ footer ul li .nav-link
     justify-content: center;
     text-align: center;
     margin: 2em;
+    line-height: 2.5em;
     
 }
-.estudiante
+.estudiante, .trainee, .junior
 {
-    border-color: blue;
-    border: thick;
     color: rgb(66, 64, 64);
+    margin: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    
 }
 
 .email
@@ -234,19 +237,29 @@ footer ul li .nav-link
 .row.tickets
 {
     background-color: rgba(255, 255, 255, 0);
+
 }
 .form-label
 {
     color: black;
 }
-#cantidad
+.amount input
 {
     height: 45%;
 }
 
 .row.buttons
 {
-    background-color: rgba(255, 255, 255, 0);
-    color: black;
+    background-color: rgba(255, 255, 255);
+    margin: auto; 
+
+}
+
+.alert-info
+{
+    padding: 1em;
+    margin: auto;
+    
+   
 }
 
