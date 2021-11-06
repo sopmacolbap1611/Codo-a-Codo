@@ -1,3 +1,18 @@
+const btnBorrar = document.getElementById("btnBorrar");
+const btnResumen = document.getElementById("btnResumen");
+
+ btnBorrar.addEventListener("click", (e)=>{
+     e.preventDefault();
+     Delete();
+ });
+
+
+
+btnResumen.addEventListener("click", (e)=>{
+    e.preventDefault();
+    Purchase();
+});
+
 
 
 function Purchase()
@@ -5,8 +20,7 @@ function Purchase()
     let cantidad = parseInt(document.getElementById("cantidad").value);
     let categoria = parseInt(document.getElementById("categoria").value);
     let precio = 200;
-    let total
-
+    let total = 0;
     
 
     switch (categoria) {
@@ -34,9 +48,17 @@ function Purchase()
 
     document.getElementById("total").innerHTML = "Total a pagar: $ " + total;
 
+    //alert("Vas a comprar " + cantidad + " entradas por un total de $ " + total);
+
 }
 
 function Delete()
 {
     document.getElementById("total").innerHTML = "Total a pagar: $ ";
+    document.getElementById("cantidad").placeholder = "cantidad de entradas"
+   
+
+    
+
 }
+
